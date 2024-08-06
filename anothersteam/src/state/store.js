@@ -1,9 +1,11 @@
 import { atom } from 'jotai';
 
-//VIEWED HISTORY (TOGGLE)
-export const viewedAtom = atom([]);
+// VIEWED HISTORY (TOGGLE)
 export const recentlyViewedAtom = atom([]);
-// export const recentlyViewedAtom = atom((get) => get(viewedAtom).slice(-6));
+export const viewedAtom = atom([]);
 
-//FAVOURITE LIST
+// FAVOURITE LIST
 export const favouriteAtom = atom([]);
+
+// USER
+export const userAtom = atom([]);
